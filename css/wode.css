@@ -1,0 +1,476 @@
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width:100%;
+    height:2.52rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    background-image: url("../img/wode/beijng.png");
+}
+header .top{
+    height:0.88rem;
+    width:100%;
+    font-size: 0.4rem;
+    line-height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+header .top i{
+    color: white;
+}
+header .bottom{
+    height:1.64rem;
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+header .bottom .box:nth-child(1){
+    width:1.14rem;
+    height:1.14rem;
+    background: pink;
+    border-radius: 50%;
+    background-image: url("../img/wode/toux.jpg");
+    background-size: cover;
+}
+header .bottom .box:nth-child(2) .name{
+    font-size: 0.26rem;
+    color: white;
+    margin-left: 0.33rem;
+}
+header .bottom .box:nth-child(2) .phone{
+    font-size: 0.24rem;
+    color: white;
+    margin-left: 0.18rem;
+
+}
+header .bottom .box:nth-child(2) .phone i{
+    color: #4bbcfc;
+}
+header .bottom .box:nth-child(3){
+    font-size: 0.3rem;
+    position: absolute;
+    right:0;
+    top: 0.65rem;
+}
+header .bottom .box:nth-child(3) i{
+    font-size: 0.30rem;
+    color: white;
+    /*float:right;*/
+}
+/*头部完成*/
+/*钱包金币优惠开始*/
+.qian{
+    width:100%;
+    height:1.4rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: absolute;
+    top:2.34rem;
+    left:0;
+}
+.qian .one{
+    display: block;
+    height:1.4rem;
+    width:3.46rem;
+    background: white;
+    box-shadow: 0 -0.04rem  0.3rem rgba(0,0,0,0.07);
+    float: left;
+    border-radius: 0.2rem;
+}
+.qian .one .wenzi{
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top: 0.27rem;
+    color: black;
+}
+.qian .one .shuzi{
+    font-size: 0.26rem;
+    color: #f08b47;
+    text-align: center;
+}
+.qian .one .shuzi i{
+    font-size: 0.22rem;
+}
+.qian .two{
+    display: block;
+    height:1.4rem;
+    width:3.46rem;
+    background: white;
+    box-shadow: 0 -0.04rem  0.3rem rgba(0,0,0,0.07);
+    border-radius: 0.2rem;
+    float: right;
+
+}
+.qian .two .wenzi{
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top: 0.27rem;
+    color: black;
+}
+.qian .two .shuzi{
+    font-size: 0.26rem;
+    color: red;
+    text-align: center;
+}
+.qian .two .shuzi i{
+    font-size: 0.22rem;
+    color: #f4ea2a;
+}
+.jin{
+    height:1.3rem;
+    width:100%;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+
+    border-radius: 0.2rem;
+    margin-top: 1.33rem;
+}
+.jin .jinbi{
+    width:7.02rem;
+    background: white;
+    box-shadow: 0 -0.04rem  0.3rem rgba(0,0,0,0.07);
+    display: flex;
+    border-radius: 0.2rem;
+}
+.jin .jinbi .one{
+    display: block;
+    height:1.3rem;
+    width:3.52rem;
+    boder-right:0.02rem solid #e6e6e7;
+}
+.jin .jinbi .one .wenzi{
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top: 0.27rem;
+    color: black;
+}
+.jin .jinbi .one .shuzi{
+    font-size: 0.26rem;
+    color: #5ca6f1;
+    text-align: center;
+}
+.jin .jinbi .one .shuzi i{
+    font-size: 0.22rem;
+    color: #f8b217;
+}
+.jin .jinbi .two{
+    display: block;
+    height:1.3rem;
+    width:3.52rem;
+}
+.jin .jinbi .two .wenzi{
+    font-size: 0.3rem;
+    text-align: center;
+    margin-top: 0.27rem;
+    color: black;
+}
+.jin .jinbi .two .shuzi{
+    font-size: 0.26rem;
+    color: black;
+    text-align: center;
+}
+.jin .jinbi .two .shuzi i{
+    font-size: 0.22rem;
+    color: #1296db;
+}
+/*钱包金币优惠结束始*/
+/*收货地址开始*/
+.adress{
+    width: 100%;
+    height:1.06rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #fef6f6;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: flex-start;*/
+}
+.adress .wenzi{
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 1.06rem;
+    margin-left: 0.54rem;
+    float:left;
+
+}
+.adress .tu{
+    margin: 0.3rem 0 0 0;
+    float:left;
+    line-height: 0rem;
+}
+.adress .jiantou{
+    font-size: 0.3rem;
+    float:right;
+    text-align: center;
+    line-height: 1.06rem;
+}
+/*收货地址结束*/
+/*我的收藏开始*/
+.cang{
+    width: 100%;
+    height:1.06rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #fef6f6;
+}
+.cang .wenzi{
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 1.06rem;
+    margin-left: 0.54rem;
+    float:left;
+
+}
+.cang .tu{
+    margin: 0.3rem 0 0 0;
+    float:left;
+    line-height: 0rem;
+}
+.cang .jiantou{
+    font-size: 0.3rem;
+    float:right;
+    text-align: center;
+    line-height: 1.06rem;
+}
+/*我的收藏结束*/
+
+/*邀请有奖开始*/
+.yao{
+    width: 100%;
+    height:1.06rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #fef6f6;
+}
+.yao .wenzi{
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 1.06rem;
+    margin-left: 0.54rem;
+    float:left;
+
+}
+.yao .wenzi2{
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 1.06rem;
+    margin-left: 2rem;
+    color: #a3a3a3;
+    float:left;
+
+}
+.yao .tu{
+    margin: 0.3rem 0 0 0;
+    float:left;
+    line-height: 0rem;
+}
+.yao .jiantou{
+    font-size: 0.3rem;
+    float:right;
+    text-align: center;
+    line-height: 1.06rem;
+}
+/*邀请结束*/
+/*会员开始*/
+.hui{
+    width: 100%;
+    height:1.06rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #fef6f6;
+}
+.hui .wenzi{
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 1.06rem;
+    margin-left: 0.54rem;
+    float:left;
+
+}
+.hui .wenzi2{
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 1.06rem;
+    margin-left: 1.8rem;
+    color: #a3a3a3;
+    float:left;
+
+}
+.hui .tu{
+    margin: 0.3rem 0 0 0;
+    float:left;
+    line-height: 0rem;
+}
+.hui .jiantou{
+    font-size: 0.3rem;
+    float:right;
+    text-align: center;
+    line-height: 1.06rem;
+}
+/*会员结束*/
+
+/*给个好评开始*/
+.hao{
+    width: 100%;
+    height:1.06rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #fef6f6;
+}
+.hao .wenzi{
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 1.06rem;
+    margin-left: 0.54rem;
+    float:left;
+
+}
+.hao .tu{
+    margin: 0.3rem 0 0 0;
+    float:left;
+    line-height: 0rem;
+}
+.hao .jiantou{
+    font-size: 0.3rem;
+    float:right;
+    text-align: center;
+    line-height: 1.06rem;
+}
+/*给个好评结束*/
+/*联系我们开始*/
+.lian{
+    width: 100%;
+    height:1.06rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #fef6f6;
+}
+.lian .wenzi{
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 1.06rem;
+    margin-left: 0.54rem;
+    float:left;
+
+}
+.lian .tu{
+    margin: 0.3rem 0 0 0;
+    float:left;
+    line-height: 0rem;
+}
+.lian .jiantou{
+    font-size: 0.3rem;
+    float:right;
+    text-align: center;
+    line-height: 1.06rem;
+}
+/*联系我们结束*/
+.tap{
+    width: 100%;
+    height: 0.98rem;
+    background:#f67675;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /* position: fixed; */
+}
+.tap .button{
+    width: 0.6rem;
+    height: 0.88rem;
+    color: white;
+}
+.tap .button .anniu{
+    width: 0.62rem;
+    height: 0.62rem;
+}
+.tap .button .anniu .an{
+    background-image: url('../img/首页/shouye.png');
+    background-size: cover;
+}
+.tap .button .anniu .an1{
+    width: 0.62rem;
+    height: 0.62rem;
+    background-image: url('../img/首页/wshouye.png');
+    background-size: cover;
+}
+.tap .button .wenzi{
+    font-size: 0.22rem;
+    text-align: center;
+}
+.tap .button2{
+    width: 0.6rem;
+    height: 0.88rem;
+}
+.tap .button2 .anniu{
+    width: 0.62rem;
+    height: 0.62rem;
+}
+.tap .button2 .anniu .an{
+    background-image: url('../img/首页/faxian.png');
+    background-size: cover;
+}
+.tap .button2 .anniu .an1{
+    width: 0.62rem;
+    height: 0.62rem;
+    background-image: url('../img/首页/faxian.png');
+    background-size: cover;
+}
+.tap .button2 .wenzi{
+    font-size: 0.22rem;
+    text-align: center;
+}
+.tap .button3{
+    width: 0.6rem;
+    height: 0.88rem;
+}
+.tap .button3 .anniu{
+    width: 0.62rem;
+    height: 0.62rem;
+}
+.tap .button3 .anniu .an{
+    background-image: url('../img/首页/zdingdan.png');
+    background-size: cover;
+}
+.tap .button3 .anniu .an1{
+    width: 0.62rem;
+    height: 0.62rem;
+    background-image: url('../img/首页/dingdan.png');
+    background-size: cover;
+}
+
+
+.tap .button3 .wenzi{
+    font-size: 0.22rem;
+    text-align: center;
+}
+.tap .button4 .anniu{
+    width: 0.62rem;
+    height: 0.62rem;
+}
+.tap .button4 .anniu .an{
+    background-image: url('../img/首页/wode.png');
+    background-size: cover;
+}
+.tap .button4 .anniu .an1{
+    width: 0.62rem;
+    height: 0.62rem;
+    background-image: url('../img/首页/zwode.png');
+    background-size: cover;
+}
+.tap .button4 .wenzi{
+    font-size: 0.22rem;
+    text-align: center;
+}

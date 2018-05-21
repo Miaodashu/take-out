@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    width:100%;
+    height:2.08rem;
+    background-image: url("../img/quzhifu/dingbu.png");
+    background-size: cover;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+header .box1{
+    width:100%;
+    height:0.88rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header .box1 .fanhui{
+    width:0.5rem;
+    height:0.88rem;
+    font-size: 0.4rem;
+    line-height: 0.88rem;
+    color:white;
+}
+header .box1 h1{
+    font-size:0.4rem;
+    font-weight:normal;
+    color: white;
+    margin-left:0.4rem;
+}
+header .box2{
+    margin-left: 0.2rem;
+    width:100%;
+    height:0.27rem;
+    font-size: 0.22rem;
+    line-height: 0.27rem;
+    color: white;
+}
+header .box3{
+    margin-left: 0.2rem;
+    width:100%;
+    height:0.27rem;
+    font-size: 0.24rem;
+    line-height: 0.27rem;
+    color: white;
+    margin-top:0.1rem;
+}
+header .box4{
+    display: flex;
+    margin-left: 0.2rem;
+    width:100%;
+    height:0.27rem;
+    font-size: 0.22rem;
+    line-height: 0.27rem;
+    color: white;
+    margin-top:0.1rem;
+}
+header .box4 .one{
+    margin-right: 0.54rem;
+}
+header .box5 i{
+    font-size:0.4rem;
+    color:white;
+    position: absolute;
+    right:0.24rem;
+    top:1.1rem;
+}
+section{
+    width:100%;
+    height:1.44rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+
+}
+section .only{
+    width:100%;
+    height:1.44rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    border-radius:0.2rem;
+    background: white;
+    box-shadow:0 0.03rem 0.13rem rgba(0,0,0,0.3);
+}
+section .only .top{
+    width:100%;
+    height:0.72rem;
+    border-bottom:0.01rem solid #fde8e8;
+    line-height:0.72rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+section .only .top .box1{
+    font-size:0.26rem;
+}
+section .only .top .box2{
+    color: #f38384;
+    margin-left:2rem;
+    font-size:0.24rem;
+}
+section .only .top .box3{
+    color: #f38384;
+    font-size: 0.26rem;
+    line-height:0.7rem;
+}
+section .only .bottom{
+    width:100%;
+    height:0.7rem;
+    line-height:0.7rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+section .only .bottom .box1{
+    font-size:0.26rem;
+}
+section .only .bottom .box2{
+    color: #f38384;
+    margin-left:4rem;
+    font-size:0.24rem;
+}
+section .only .bottom .box3{
+    color: #f38384;
+    font-size: 0.26rem;
+    line-height:0.7rem;
+}
+h1.time{
+    height:0.8rem;
+    width:100%;
+    border:0.01rem solid #fde8e8;
+    font-size:0.4rem;
+    text-align: center;
+    line-height:0.8rem;
+    font-weight:normal;
+}
+.pleas{
+    height:0.6rem;
+    width:100%;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+}
+h2{
+    height:0.6rem;
+    width:100%;
+    border-bottom:0.01rem solid #fde8e8;
+    font-size:0.3rem;
+    text-align: center;
+    line-height:0.6rem;
+    font-weight:normal;
+}
+/*支付方式*/
+.way{
+    width:100%;
+    height:auto;
+    padding:0 0.24em;
+    box-sizing: border-box;
+}
+.way .box{
+    width:100%;
+    height:1rem;
+
+}
+/*钱包余额开始*/
+.way .box:nth-child(1){
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size: 0.3rem;
+}
+.way .box:nth-child(1) .one{
+    width:0.4rem;
+    height:0.4rem;
+    margin-bottom:0.2rem;
+    margin-right: 0.36rem;
+}
+.way .box:nth-child(1) .two{
+    display: flex;
+    flex-grow: 1;
+    align-items:center;
+    justify-content:space-between;
+    font-size: 0.3rem;
+    border-bottom:0.01rem solid #fde8e8;
+
+}
+.way .box:nth-child(1) .two .yi{
+    margin-bottom:0.2rem;
+}
+.way .box:nth-child(1) .two .er{
+    width:0.3rem;
+    height:0.3rem;
+    background: #96f59d;
+    border-radius:50%;
+    font-size:0.26rem;
+    color:white;
+    margin-bottom:0.2rem;
+}
+/*钱包余额结束*/
+/*支付宝支付开始*/
+.way .box:nth-child(2){
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size: 0.3rem;
+}
+.way .box:nth-child(2) .one{
+    width:0.4rem;
+    height:0.4rem;
+    margin-bottom:0.2rem;
+    margin-right: 0.36rem;
+}
+.way .box:nth-child(2) .two{
+    display: flex;
+    flex-grow: 1;
+    align-items:center;
+    justify-content:space-between;
+    font-size: 0.3rem;
+    border-bottom:0.01rem solid #fde8e8;
+
+}
+.way .box:nth-child(2) .two .yi{
+    margin-bottom:0.2rem;
+}
+.way .box:nth-child(2) .two .er{
+    width:0.3rem;
+    height:0.3rem;
+    background:  #929392;
+    border-radius:50%;
+    font-size:0.26rem;
+    color:white;
+    margin-bottom:0.2rem;
+}
+/*支付宝支付结束*/
+
+/*微信支付开始*/
+.way .box:nth-child(3){
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size: 0.3rem;
+}
+.way .box:nth-child(3) .one{
+    width:0.4rem;
+    height:0.4rem;
+    margin-bottom:0.2rem;
+    margin-right: 0.36rem;
+}
+.way .box:nth-child(3) .two{
+    display: flex;
+    flex-grow: 1;
+    align-items:center;
+    justify-content:space-between;
+    font-size: 0.3rem;
+    border-bottom:0.01rem solid #fde8e8;
+
+}
+.way .box:nth-child(3) .two .yi{
+    margin-bottom:0.2rem;
+}
+.way .box:nth-child(3) .two .er{
+    width:0.3rem;
+    height:0.3rem;
+    background:  #929392;
+    border-radius:50%;
+    font-size:0.26rem;
+    color:white;
+    margin-bottom:0.2rem;
+}
+/*微信支付结束*/
+/*银行卡支付开始*/
+.way .box:nth-child(4){
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    font-size: 0.3rem;
+}
+.way .box:nth-child(4) .one{
+    width:0.4rem;
+    height:0.4rem;
+    margin-bottom:0.2rem;
+    margin-right: 0.36rem;
+}
+.way .box:nth-child(4) .two{
+    display: flex;
+    flex-grow: 1;
+    align-items:center;
+    justify-content:space-between;
+    font-size: 0.3rem;
+    border-bottom:0.01rem solid #fde8e8;
+
+}
+.way .box:nth-child(4) .two .yi{
+    margin-bottom:0.2rem;
+}
+.way .box:nth-child(4) .two .er{
+    width:0.3rem;
+    height:0.3rem;
+    background: #929392;
+    border-radius:50%;
+    font-size:0.26rem;
+    color:white;
+    margin-bottom:0.2rem;
+}
+/*银行卡支付结束*/
+/*tap栏开始*/
+.tap{
+    display: block;
+    width:100%;
+    height:0.98rem;
+    background-image: url("../img/quzhifu/dibu.png");
+    background-size:cover;
+    font-size:0.4rem;
+    color:white;
+    line-height:0.98rem;
+    text-align:center;
+    position: fixed;
+    left:0;
+    bottom:0;
+}
+/*tap栏结束*/

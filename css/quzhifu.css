@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    width:100%;
+    height:2.08rem;
+    background-image: url("../img/quzhifu/dingbu.png");
+    background-size: cover;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+}
+header .box1{
+    width:100%;
+    height:0.88rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header .box1 .fanhui{
+    width:0.5rem;
+    height:0.88rem;
+    font-size: 0.4rem;
+    line-height: 0.88rem;
+    color:white;
+}
+header .box2{
+    margin-left: 0.2rem;
+    width:100%;
+    height:0.27rem;
+    font-size: 0.22rem;
+    line-height: 0.27rem;
+    color: white;
+}
+header .box3{
+    margin-left: 0.2rem;
+    width:100%;
+    height:0.27rem;
+    font-size: 0.24rem;
+    line-height: 0.27rem;
+    color: white;
+    margin-top:0.1rem;
+}
+header .box4{
+    display: flex;
+    margin-left: 0.2rem;
+    width:100%;
+    height:0.27rem;
+    font-size: 0.22rem;
+    line-height: 0.27rem;
+    color: white;
+    margin-top:0.1rem;
+}
+header .box4 .one{
+    margin-right: 0.54rem;
+}
+header .box5 i{
+    font-size:0.4rem;
+    color:white;
+    position: absolute;
+    right:0.24rem;
+    top:1.1rem;
+}
+section{
+    width:100%;
+    height:1.44rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+
+}
+section .only{
+    width:100%;
+    height:1.44rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    border-radius:0.2rem;
+    background: white;
+    box-shadow:0 0.03rem 0.13rem rgba(0,0,0,0.3);
+}
+section .only .top{
+    width:100%;
+    height:0.72rem;
+    border-bottom:0.01rem solid #fde8e8;
+    line-height:0.72rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+section .only .top .box1{
+    font-size:0.26rem;
+}
+section .only .top .box2{
+    color: #f38384;
+    margin-left:2rem;
+    font-size:0.24rem;
+}
+section .only .top .box3{
+    color: #f38384;
+    font-size: 0.26rem;
+    line-height:0.7rem;
+}
+section .only .bottom{
+    width:100%;
+    height:0.7rem;
+    line-height:0.7rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+section .only .bottom .box1{
+    font-size:0.26rem;
+}
+section .only .bottom .box2{
+    color: #f38384;
+    margin-left:4rem;
+    font-size:0.24rem;
+}
+section .only .bottom .box3 {
+    color: #f38384;
+    font-size: 0.26rem;
+    line-height: 0.7rem;
+}
+.name{
+    width:100%;
+    height:0.72rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.name .one{
+    width:0.6rem;
+    height:0.02rem;
+    background: #6b6467;
+}
+.name h1{
+    font-size: 0.3rem;
+    font-weight:normal;
+    line-height: 0.72rem;
+    margin:0 0.32rem;
+}
+
+.name .two{
+    width:0.6rem;
+    height:0.02rem;
+    background: #6b6467;
+}
+
+
+/*购买列表详情开始*/
+.list{
+    width:7.02rem;
+    height:6.45rem;
+    margin:0 0.24rem;
+    background: white;
+    box-shadow:0 0.03rem 0.15rem rgba(0,0,0,0.3);
+    border-radius:0.2rem;
+    padding:0 0.2rem ;
+    box-sizing:border-box;
+    overflow: hidden;
+}
+.list .box1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width:100%;
+    height:1.12rem;
+    margin-top:0.35rem;
+}
+.list .box1 .mingzi{
+    font-size:0.26rem;
+    line-height: 1.12rem;
+}
+.list .box1 .number{
+    font-size:0.26rem;
+    line-height: 1.12rem;
+}
+.list .box1 .price{
+    font-size:0.26rem;
+    line-height: 1.12rem;
+}
+.list .box1 .img{
+    width:1.12rem;
+    height:1.12rem;
+    background: pink;
+    background-image: url("../img/quzhifu/qiaokeli2.png");
+    background-size: cover;
+}
+.list .box2{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width:100%;
+    height:1.12rem;
+    margin-top:0.35rem;
+}
+.list .box2 .mingzi{
+    font-size:0.26rem;
+    line-height: 1.12rem;
+}
+.list .box2 .number{
+    font-size:0.26rem;
+    line-height: 1.12rem;
+}
+.list .box2 .price{
+    font-size:0.26rem;
+    line-height: 1.12rem;
+}
+.list .box2 .img{
+    width:1.12rem;
+    height:1.12rem;
+    background: pink;
+    background-image: url("../img/quzhifu/caomei.jpg");
+    background-size: cover;
+}
+.list .box3{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width:100%;
+    height:1.12rem;
+    margin-top:0.35rem;
+}
+.list .box3 .mingzi{
+    font-size:0.26rem;
+    line-height: 1.12rem;
+}
+.list .box3 .number{
+    font-size:0.26rem;
+    line-height: 1.12rem;
+}
+.list .box3 .price{
+    font-size:0.26rem;
+    line-height: 1.12rem;
+}
+.list .box3 .img{
+    width:1.12rem;
+    height:1.12rem;
+    background: pink;
+    background-image: url("../img/quzhifu/zhishi.jpg");
+    background-size: cover;
+}
+.list .box4{
+    width:100%;
+    height:0.34rem;
+    margin-top:0.35rem;
+    font-size:0.24rem;
+    border-bottom: 0.01rem solid #fef2f2;
+    border-top: 0.01rem solid #fef2f2;
+}
+.list .box4 .yi{
+    background: red;
+    font-size:0.24rem;
+    color:white;
+    width: 0.24rem;
+    height:0.24rem;
+    text-align:center;
+    line-height: 0.24rem;
+    float:left;
+    margin-top: 0.05rem ;
+}
+.list .box4 .er{
+    float:left;
+    line-height:0.34rem;
+    margin-left:0.12rem;
+}
+.list .box4 .san{
+    color:red;
+    float:right;
+    line-height:0.34rem
+}
+.list .box5{
+    width:100%;
+    height:0.58rem;
+    border-bottom: 0.01rem solid #fef2f2;
+}
+.list .box5 .yi{
+    font-size: 0.26rem;
+    line-height: 0.58rem;
+    float:left;
+}
+.list .box5 .er{
+    font-size: 0.24rem;
+    line-height: 0.58rem;
+    color:#7f7f7f;
+    float:right;
+}
+.list .box5 .san{
+    font-size: 0.26rem;
+    line-height: 0.58rem;
+    color:#7f7f7f;
+    float:right;
+    margin-left: 0.52rem;
+}
+.list .box6{
+    width:100%;
+    height:0.7rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.list .box6 .yi{
+    font-size: 0.26rem;
+    line-height: 0.7rem;
+}
+.list .box6 .er{
+    font-size: 0.28rem;
+    line-height: 0.7rem;
+}
+
+/*购买列表详情结束*/
+section.two{
+    width:100%;
+    height:1.44rem;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    margin-top: 0.46rem;
+    margin-bottom: 0.88rem;
+}
+section.two .only{
+    width:100%;
+    height:1.44rem;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    border-radius:0.2rem;
+    background: white;
+    box-shadow:0 0.03rem 0.13rem rgba(0,0,0,0.3);
+}
+section.two .only .top{
+    width:100%;
+    height:0.72rem;
+    border-bottom:0.01rem solid #fde8e8;
+    line-height:0.72rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+section.two .only .top .box1{
+    font-size:0.26rem;
+}
+
+section.two .only .top .box3{
+    color: black;
+    font-size: 0.26rem;
+    line-height:0.7rem;
+}
+section.two .only .bottom{
+    width:100%;
+    height:0.7rem;
+    line-height:0.7rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+section.two .only .bottom .box1{
+    font-size:0.26rem;
+    color: #a3a3a3;
+}
+section.two .only .bottom .box3 {
+    color: #a3a3a3;
+    font-size: 0.26rem;
+    line-height: 0.7rem;
+}
+/*tap栏开始*/
+.tap{
+    width:100%;
+    height:0.98rem;
+    background-image: url("../img/quzhifu/beij.png");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.tap .left{
+    flex-grow: 1;
+    padding-left: 0.24rem;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tap .left .one{
+    font-size: 0.4rem;
+}
+.tap .left .two{
+    font-size: 0.26rem;
+}
+.tap .right{
+    width:1.38rem;
+    height:0.98rem;
+    background: #f66060;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.98rem;
+    color: white;
+    padding-right: 0.24rem;
+    box-sizing: border-box;
+}
+/*tap栏结束*/

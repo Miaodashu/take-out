@@ -1,0 +1,816 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    width:100%;
+    height:2.76rem;
+    background-image: url("../img/erji/beijingq.png");
+    background-size: cover;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+header .box:nth-child(1){
+    width:100%;
+    height:0.88rem;
+    overflow: hidden;
+    /*display: flex;*/
+}
+header .box:nth-child(1) a .iconfont{
+    display: block;
+    float: left;
+    color:white;
+    font-size: 0.4rem;
+    text-align: center;
+    line-height:0.88rem;
+}
+header .box:nth-child(1) .two i{
+    margin-left: 5.38rem;
+}
+header .box:nth-child(1) .three{
+   float: right;
+}
+header .box:nth-child(2){
+     width:100%;
+     height:1.23rem;
+     display: flex;
+}
+header .box:nth-child(2) .logo{
+    width:1.2rem;
+    height:1.2rem;
+    background: yellow;
+    background-image: url("../img/erji/lo.jpg");
+    background-size: cover;
+}
+header .box:nth-child(2) .ShopMiao{
+    flex-grow:1;
+    padding-left:0.22rem;
+}
+header .box:nth-child(2) .ShopMiao .miaoshu{
+    display: flex;
+    font-size: 0.24rem;
+    color: white;
+    margin-top: 0.16rem;
+    /*align-items: flex-end;*/
+    justify-content: flex-start;
+}
+header .box:nth-child(2) .ShopMiao .miaoshu h1{
+    font-size: 0.24rem;
+}
+header .box:nth-child(2) .ShopMiao .miaoshu i{
+    font-size: 0.20rem;
+    margin-right: 0.35rem;
+}
+header .box:nth-child(2) .ShopMiao .gong{
+    font-size: 0.22rem;
+    width:3.55rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    color: white;
+    margin-top: 0.15rem;
+}
+header .box:nth-child(3){
+    width:100%;
+    height:0.45rem;
+    font-size: 0.22rem;
+    color:black;
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+}
+header .box:nth-child(3) .jian{
+    fonnt-size:0.2rem;
+    color:white;
+    background: red;
+    width:0.3rem;
+    height:0.3rem;
+    text-align: center;
+    height:0.3rem;
+}
+header .box:nth-child(3) .man{
+    width:4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    margin-left:0.1rem ;
+}
+header .box:nth-child(3) .you{
+    margin-left: 0.5rem;
+}
+header .box:nth-child(3) .you i{
+    font-size: 0.2rem;
+}
+
+/*头部结束*/
+
+.bos{
+    width:100%;
+    height:0.4rem;
+    display: flex;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    justify-content:flex-start;
+    align-items: center;
+    border-bottom:0.01rem solid #f2afab;
+}
+.bos .shang{
+    font-size: 0.28rem;
+    color:black;
+    position: relative;
+
+}
+.bos .shang1:before{
+    content: "";
+    width:100%;
+    height:0.03rem;
+    background: red;
+    position: absolute;
+    bottom:0rem;
+
+}
+.bos .shang1{
+    margin: 0 0.6rem 0 0.5rem ;
+    color:black;
+
+}
+/*分类开始*/
+.fenlei{
+    width:100%;
+    height:auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+}
+.fenlei .left{
+    width:1.54rem;
+    height:auto;
+}
+.fenlei .left li{
+    font-size: 0.26rem;
+    color:black;
+    width:1.54rem;
+    height:1.17rem;
+    background: #e6e6e6;
+    text-align: center;
+    line-height: 1.17rem;
+    border-bottom: 0.01rem solid #ebd0ce;
+}
+.fenlei .left .box{
+    background: white;
+}
+.fenlei .right{
+    height:auto;
+    width:5.71rem;
+    padding-left:0.17rem;
+}
+.fenlei .right li{
+    width:100%;
+    height:1.58rem;
+    border-top:0.01rem solid #ebd0ce;
+}
+/*第一个店铺开始*/
+.fenlei .right li:nth-child(1){
+    display: flex;
+}
+.fenlei .right li:nth-child(1) .tu{
+    width:1.12rem;
+    height:1.12rem;
+    margin-top:0.22rem;
+    background-image: url("../img/erji/langman.jpg");
+    background-size: cover;
+}
+.fenlei .right li:nth-child(1) .zi{
+    flex-grow: 1;
+    padding-left:0.26rem;
+    overflow: hidden;
+    position: relative;
+}
+.fenlei .right li:nth-child(1) .zi .name{
+    font-size: 0.24rem;
+    color:black;
+    margin-top: 0.22rem;
+}
+.fenlei .right li:nth-child(1) .zi .liang{
+    font-size: 0.20rem;
+    color:#a3a3a3;
+
+}
+.fenlei .right li:nth-child(1) .zi .liao{
+    font-size: 0.20rem;
+    color:#a3a3a3;
+    width:2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fenlei .right li:nth-child(1) .zi .much{
+    font-size: 0.24rem;
+    color:red;
+    margin-top: 0.19rem;
+}
+.fenlei .right li:nth-child(1) .zi .but{
+    width:1.1rem;
+    height:0.2rem;
+    display: flex;
+    position: absolute;
+    right:0;
+    bottom: 0.15rem;
+}
+.fenlei .right li:nth-child(1) .zi .but .button{
+    background-image: url("../img/erji/jian.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.fenlei .right li:nth-child(1) .zi .but .button1{
+    background-image: url("../img/erji/jia.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.fenlei .right li:nth-child(1) .zi .but p{
+    flex-grow: 1;
+    height:0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+}
+
+/*第一个店铺结束*/
+/*第二个店铺开始*/
+.fenlei .right li:nth-child(2){
+    display: flex;
+}
+.fenlei .right li:nth-child(2) .tu{
+    width:1.12rem;
+    height:1.12rem;
+    background-image: url("../img/erji/zhishi.jpg");
+    background-size: cover;
+    margin-top:0.22rem;
+
+}
+.fenlei .right li:nth-child(2) .zi{
+    flex-grow: 1;
+    padding-left:0.26rem;
+    overflow: hidden;
+    position: relative;
+}
+.fenlei .right li:nth-child(2) .zi .name{
+    font-size: 0.24rem;
+    color:black;
+    margin-top: 0.22rem;
+}
+.fenlei .right li:nth-child(2) .zi .liang{
+    font-size: 0.20rem;
+    color:red;
+    width:0.9rem;
+    height:0.24rem;
+    border: 0.01rem solid #f2afab;
+    text-align: center;
+}
+.fenlei .right li:nth-child(2) .zi .liao{
+    font-size: 0.20rem;
+    color:#a3a3a3;
+    width:2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fenlei .right li:nth-child(2) .zi .much{
+    font-size: 0.24rem;
+    color:red;
+    margin-top: 0.19rem;
+}
+.fenlei .right li:nth-child(2) .zi .but{
+    width:1.1rem;
+    height:0.2rem;
+    display: flex;
+    position: absolute;
+    right:0;
+    bottom: 0.15rem;
+}
+.fenlei .right li:nth-child(2) .zi .but .button{
+    background-image: url("../img/erji/jian.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.fenlei .right li:nth-child(2) .zi .but .button1{
+    background-image: url("../img/erji/jia.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.fenlei .right li:nth-child(2) .zi .but p{
+    flex-grow: 1;
+    height:0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+}
+/*第二个店铺结束*/
+
+/*第三个店铺开始*/
+.fenlei .right li:nth-child(3){
+    display: flex;
+}
+.fenlei .right li:nth-child(3) .tu{
+    width:1.12rem;
+    height:1.12rem;
+    background-image: url("../img/erji/qiaokeli.jpg");
+    background-size: cover;
+    margin-top:0.22rem;
+
+}
+.fenlei .right li:nth-child(3) .zi{
+    flex-grow: 1;
+    padding-left:0.26rem;
+    overflow: hidden;
+    position: relative;
+}
+.fenlei .right li:nth-child(3) .zi .name{
+    font-size: 0.24rem;
+    color:black;
+    margin-top: 0.22rem;
+}
+.fenlei .right li:nth-child(3) .zi .liang{
+    font-size: 0.20rem;
+    color:#a3a3a3;
+
+}
+
+.fenlei .right li:nth-child(3) .zi .liao{
+    font-size: 0.20rem;
+    color:#a3a3a3;
+    width:2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fenlei .right li:nth-child(3) .zi .much{
+    font-size: 0.24rem;
+    color:red;
+    margin-top: 0.19rem;
+}
+.fenlei .right li:nth-child(3) .zi .but{
+    width:1.1rem;
+    height:0.2rem;
+    display: flex;
+    position: absolute;
+    right:0;
+    bottom: 0.15rem;
+}
+.fenlei .right li:nth-child(3) .zi .but .button{
+    background-image: url("../img/erji/jian.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.fenlei .right li:nth-child(3) .zi .but .button1{
+    background-image: url("../img/erji/jia.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.fenlei .right li:nth-child(3) .zi .but p{
+    flex-grow: 1;
+    height:0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+}
+/*第三个结束*/
+/*第四个开始*/
+.fenlei .right li:nth-child(4){
+    display: flex;
+}
+.fenlei .right li:nth-child(4) .tu{
+    width:1.12rem;
+    height:1.12rem;
+    background-image: url("../img/erji/caomei.jpg");
+    background-size: cover;
+    margin-top:0.22rem;
+
+}
+.fenlei .right li:nth-child(4) .zi{
+    flex-grow: 1;
+    padding-left:0.26rem;
+    overflow: hidden;
+    position: relative;
+}
+.fenlei .right li:nth-child(4) .zi .name{
+    font-size: 0.24rem;
+    color:black;
+    margin-top: 0.22rem;
+}
+.fenlei .right li:nth-child(4) .zi .liang{
+    font-size: 0.20rem;
+    color:red;
+    width:0.9rem;
+    height:0.24rem;
+    border: 0.01rem solid #f2afab;
+    text-align: center;
+}
+.fenlei .right li:nth-child(4) .zi .liao{
+    font-size: 0.20rem;
+    color:#a3a3a3;
+    width:2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fenlei .right li:nth-child(4) .zi .much{
+    font-size: 0.24rem;
+    color:red;
+    margin-top: 0.19rem;
+}
+.fenlei .right li:nth-child(4) .zi .but{
+    width:1.1rem;
+    height:0.2rem;
+    display: flex;
+    position: absolute;
+    right:0;
+    bottom: 0.15rem;
+}
+.fenlei .right li:nth-child(4) .zi .but .button{
+    background-image: url("../img/erji/jian.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.fenlei .right li:nth-child(4) .zi .but .button1{
+    background-image: url("../img/erji/jia.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.fenlei .right li:nth-child(4) .zi .but p{
+    flex-grow: 1;
+    height:0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+}
+/*第五个开始*/
+.fenlei .right li:nth-child(5){
+    display: flex;
+}
+.fenlei .right li:nth-child(5) .tu{
+    width:1.12rem;
+    height:1.12rem;
+    background-image: url("../img/erji/tagyuan.jpg");
+    background-size: cover;
+    margin-top:0.22rem;
+
+}
+.fenlei .right li:nth-child(5) .zi{
+    flex-grow: 1;
+    padding-left:0.26rem;
+    overflow: hidden;
+    position: relative;
+}
+.fenlei .right li:nth-child(5) .zi .name{
+    font-size: 0.24rem;
+    color:black;
+    margin-top: 0.22rem;
+}
+.fenlei .right li:nth-child(5) .zi .liang{
+    font-size: 0.20rem;
+    color:red;
+    width:0.9rem;
+    height:0.24rem;
+    border: 0.01rem solid #f2afab;
+    text-align: center;
+}
+.fenlei .right li:nth-child(5) .zi .liao{
+    font-size: 0.20rem;
+    color:#a3a3a3;
+    width:2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fenlei .right li:nth-child(5) .zi .much{
+    font-size: 0.24rem;
+    color:red;
+    margin-top: 0.19rem;
+}
+.fenlei .right li:nth-child(5) .zi .but{
+    width:1.1rem;
+    height:0.2rem;
+    display: flex;
+    position: absolute;
+    right:0;
+    bottom: 0.15rem;
+}
+.fenlei .right li:nth-child(5) .zi .but .button{
+    background-image: url("../img/erji/jian.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.fenlei .right li:nth-child(5) .zi .but .button1{
+    background-image: url("../img/erji/jia.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.fenlei .right li:nth-child(5) .zi .but p{
+    flex-grow: 1;
+    height:0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+}
+/*第五个结束*/
+/*分隔提示开始*/
+.fenlei .right li:nth-child(6){
+    font-size: 0.24rem;
+    border-top:0.01rem solid #ebd0ce;
+    height:0.42rem;
+    width:100%;
+    line-height: 0.42rem;
+}
+/*分隔提示结束*/
+/*第七个开始*/
+.fenlei .right li:nth-child(7){
+    display: flex;
+}
+.fenlei .right li:nth-child(7) .tu{
+    width:1.12rem;
+    height:1.12rem;
+    background-image: url("../img/erji/meihua.png");
+    background-size: cover;
+    margin-top:0.22rem;
+
+}
+.fenlei .right li:nth-child(7) .zi{
+    flex-grow: 1;
+    padding-left:0.26rem;
+    overflow: hidden;
+    position: relative;
+}
+.fenlei .right li:nth-child(7) .zi .name{
+    font-size: 0.24rem;
+    color:black;
+    margin-top: 0.22rem;
+}
+.fenlei .right li:nth-child(7) .zi .liang{
+    font-size: 0.20rem;
+    color:red;
+    width:0.9rem;
+    height:0.24rem;
+    border: 0.01rem solid #f2afab;
+    text-align: center;
+}
+.fenlei .right li:nth-child(7) .zi .liao{
+    font-size: 0.20rem;
+    color:#a3a3a3;
+    width:2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fenlei .right li:nth-child(7) .zi .much{
+    font-size: 0.24rem;
+    color:red;
+    margin-top: 0.19rem;
+}
+.fenlei .right li:nth-child(7) .zi .but{
+    width:1.1rem;
+    height:0.2rem;
+    display: flex;
+    position: absolute;
+    right:0;
+    bottom: 0.15rem;
+}
+.fenlei .right li:nth-child(7) .zi .but .button{
+    background-image: url("../img/erji/jian.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.fenlei .right li:nth-child(7) .zi .but .button1{
+    background-image: url("../img/erji/jia.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.fenlei .right li:nth-child(7) .zi .but p{
+    flex-grow: 1;
+    height:0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+}
+/*第七个结束*/
+/*第八个开始*/
+.fenlei .right li:nth-child(8){
+    display: flex;
+}
+.fenlei .right li:nth-child(8) .tu{
+    width:1.12rem;
+    height:1.12rem;
+    background-image: url("../img/erji/zhishitiao.jpg");
+    background-size: cover;
+    margin-top:0.22rem;
+
+}
+.fenlei .right li:nth-child(8) .zi{
+    flex-grow: 1;
+    padding-left:0.26rem;
+    overflow: hidden;
+    position: relative;
+}
+.fenlei .right li:nth-child(8) .zi .name{
+    font-size: 0.24rem;
+    color:black;
+    margin-top: 0.22rem;
+}
+.fenlei .right li:nth-child(8) .zi .liang{
+    font-size: 0.20rem;
+    color:red;
+    width:0.9rem;
+    height:0.24rem;
+    border: 0.01rem solid #f2afab;
+    text-align: center;
+}
+.fenlei .right li:nth-child(8) .zi .liao{
+    font-size: 0.20rem;
+    color:#a3a3a3;
+    width:2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fenlei .right li:nth-child(8) .zi .much{
+    font-size: 0.24rem;
+    color:red;
+    margin-top: 0.19rem;
+}
+.fenlei .right li:nth-child(8) .zi .but{
+    width:1.1rem;
+    height:0.2rem;
+    display: flex;
+    position: absolute;
+    right:0;
+    bottom: 0.15rem;
+}
+.fenlei .right li:nth-child(8) .zi .but .button{
+    background-image: url("../img/erji/jian.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.fenlei .right li:nth-child(8) .zi .but .button1{
+    background-image: url("../img/erji/jia.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.fenlei .right li:nth-child(8) .zi .but p{
+    flex-grow: 1;
+    height:0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+}
+/*分类结束*/
+.tap{
+    width:100%;
+    height:auto;
+    position: fixed;
+    right:0;
+    bottom:0;
+
+}
+.tap .box1{
+    background-image: url("../img/erji/juxing.png");
+    width:100%;
+    height:0.98rem;
+}
+.tap .box1 .left{
+    width:1.5rem;
+    height:0.98rem;
+    font-size: 0.26rem;
+    color: white;
+    margin-left:1.7rem;
+    line-height: 0.98rem;
+    float:left;
+
+}
+.tap .box1 .right{
+    width:1.66rem;
+    height:0.98rem;
+    font-size: 0.26rem;
+    color: white;
+    margin-left:1.7rem;
+    line-height: 0.98rem;
+    text-align: center;
+    background: #f66060;
+    float: right;
+}
+.tap .box2{
+    background-image: url("../img/erji/majian.png");
+    width:100%;
+    height:0.4rem;
+    display: flex;
+    justify-content: center;
+}
+.tap .box2 .zi{
+    height:0.4rem;
+    width:2.7rem;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.4rem;overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.tap .che{
+    width:0.88rem;
+    height:0.88rem;
+    background-image:url("../img/erji/gouwuche.png");
+    background-size: cover;
+    position: absolute;
+    bottom:0.49rem;
+    left:0.49rem;
+
+}
+.tap .yixuan{
+    height:0.5rem;
+    width:100%;
+    background: #f5efef;
+    display: flex;
+    font-size: 0.22rem;
+    line-height: 0.5rem;
+
+}
+.tap .yixuan .shu{
+    width:0.08rem;
+    height:100%;
+    background: #de477c;
+    margin-left: 0.55rem;
+    margin-right:0.1rem;
+}
+.tap .yixuan i{
+    font-size: 0.22rem;
+    color:#929191;
+    line-height: 0.5rem;
+}
+.tap .yixuan .wenzi{
+    margin-right:4.74rem;
+}
+.tap .xiangxi{
+    height:auto;
+    width:100%;
+    background: white;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    font-size: 0.22rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.tap .xiangxi .but{
+    width:1.1rem;
+    height:0.2rem;
+    display: flex;
+
+}
+.tap .xiangxi .button{
+    background-image: url("../img/erji/jian.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+}
+.tap .xiangxi .button1{
+    background-image: url("../img/erji/jia.png");
+    background-size: cover;
+    width:0.22rem;
+    height:0.22rem;
+
+}
+.tap .xiangxi .but p{
+    flex-grow: 1;
+    height:0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.22rem;
+}
+.huodong{
+    background-image: url("../img/erji/majian.png");
+    width:100%;
+    height:0.4rem;
+    display: flex;
+    justify-content: center;
+    font-size: 0.22rem;
+}
